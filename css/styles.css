@@ -245,14 +245,12 @@ margin-bottom: 72px;
 .team-item {
    display: block;
    width: calc((100% - 3*24px)/4); 
-
-
-}
- .profile-container {
-    border-radius: 0 0 4px 4px;
+border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
- }
+}
+ 
+    
 .list-team .team-item {
  background-color: #FFFFFF;
 }
@@ -267,7 +265,7 @@ margin-bottom: 72px;
     width: 40px; 
     height: 40px;
     margin-top: 8px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
    }
    
 .list-team {
@@ -285,6 +283,7 @@ fill: #f4f4fd;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -368,6 +367,9 @@ letter-spacing: 0.02em;
     display: flex;
     align-items: baseline;
 
+}
+.footer-logo-container {
+    margin-right: 120px;
 }
 .page-footer {
 background-color:  #2e2f42;
